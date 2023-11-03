@@ -47,6 +47,7 @@ def main():
         "email" : "12345",
         "facebook" : "myfbpwd",
         "youtube" : "helloworld", 
+        "firefox" : "iamyourpwd"
     }
 
     pm = PasswordManager()
