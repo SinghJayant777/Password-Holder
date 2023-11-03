@@ -71,7 +71,7 @@ def main():
             pm.create_key(path)
     
         elif choice == "2":
-            path = input("Enter path: ")
+            path = input("Enter the key to be loaded: ")
             pm.load_key(path)
 
         elif choice == "3":
@@ -79,7 +79,7 @@ def main():
             pm.create_password_file(path, password)
         
         elif choice == "4":
-            path = input("Enter path: ")
+            path = input("Enter password to be loaded: ")
             pm.load_password_file(path)
 
         elif choice == "5":
