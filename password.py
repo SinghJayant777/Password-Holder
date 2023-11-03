@@ -94,7 +94,7 @@ def main():
         
         elif choice == "q":
             done = True
-            print ("Bye")
+            print ("See your again ...... Stay Confidential, Stay Secure")
 
         else:
             print("Invalid choice!")
